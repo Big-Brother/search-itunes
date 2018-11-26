@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E560C9E68A19BF9A737A382852B52BDE"
-               BuildableName = "Pods_search_iTunesTests.framework"
-               BlueprintName = "Pods-search-iTunesTests"
+               BlueprintIdentifier = "ACD149C346119913D10A78ACEF5066E8"
+               BuildableName = "Pods_JobChallengeTests.framework"
+               BlueprintName = "Pods-JobChallengeTests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E560C9E68A19BF9A737A382852B52BDE"
-            BuildableName = "Pods_search_iTunesTests.framework"
-            BlueprintName = "Pods-search-iTunesTests"
+            BlueprintIdentifier = "ACD149C346119913D10A78ACEF5066E8"
+            BuildableName = "Pods_JobChallengeTests.framework"
+            BlueprintName = "Pods-JobChallengeTests"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

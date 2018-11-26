@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05132B2CAD48804FA3F53A6F /* Pods_search_iTunesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED77FA50BE671BF368389B98 /* Pods_search_iTunesUITests.framework */; };
-		1A16EC5B08D1908695A11777 /* Pods_search_iTunesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9EC7DA617DF12AAD4DF05A /* Pods_search_iTunesTests.framework */; };
+		0174D8B5FFB7BC88A3D91C32 /* Pods_JobChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F818947C7F72131EFB1A6D3 /* Pods_JobChallengeUITests.framework */; };
+		3098EC5C97AFC53810571E89 /* Pods_JobChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BDDCB1623A2A678A464AF6 /* Pods_JobChallengeTests.framework */; };
 		4F450E2721A5F991006BA9D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F450E2621A5F991006BA9D3 /* AppDelegate.swift */; };
 		4F450E2C21A5F991006BA9D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F450E2A21A5F991006BA9D3 /* Main.storyboard */; };
 		4F450E2E21A5F992006BA9D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F450E2D21A5F992006BA9D3 /* Assets.xcassets */; };
@@ -21,7 +21,7 @@
 		4F450E5D21A71A6D006BA9D3 /* ResultDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F450E5C21A71A6D006BA9D3 /* ResultDetailsViewController.swift */; };
 		4F450E5F21A76F21006BA9D3 /* TimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F450E5E21A76F21006BA9D3 /* TimeFormatter.swift */; };
 		4FB45B4021AAB699001BF41E /* PopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB45B3F21AAB699001BF41E /* PopOverViewController.swift */; };
-		A92040BFC33E0CAF8AAA58C6 /* Pods_search_iTunes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FFB6DB2B2D6C64DD55A70A /* Pods_search_iTunes.framework */; };
+		7E38B47A82FD090574E3E632 /* Pods_JobChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01847BE8D11D423062F755BB /* Pods_JobChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,19 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		034D01D5CF4DD1D1C93248FC /* Pods-search-iTunesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-search-iTunesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-search-iTunesUITests/Pods-search-iTunesUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		27FFB6DB2B2D6C64DD55A70A /* Pods_search_iTunes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_search_iTunes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F65CA3B541FE2004A3D15E0 /* Pods-search-iTunes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-search-iTunes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-search-iTunes/Pods-search-iTunes.debug.xcconfig"; sourceTree = "<group>"; };
-		4F450E2321A5F991006BA9D3 /* search-iTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "search-iTunes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01847BE8D11D423062F755BB /* Pods_JobChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BDDCB1623A2A678A464AF6 /* Pods_JobChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F450E2321A5F991006BA9D3 /* JobChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F450E2621A5F991006BA9D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F450E2B21A5F991006BA9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F450E2D21A5F992006BA9D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F450E3021A5F992006BA9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F450E3221A5F992006BA9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F450E3721A5F993006BA9D3 /* search-iTunesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "search-iTunesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F450E3721A5F993006BA9D3 /* JobChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F450E3B21A5F993006BA9D3 /* JobChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobChallengeTests.swift; sourceTree = "<group>"; };
 		4F450E3D21A5F993006BA9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F450E4221A5F993006BA9D3 /* search-iTunesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "search-iTunesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F450E4221A5F993006BA9D3 /* JobChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F450E4621A5F993006BA9D3 /* JobChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobChallengeUITests.swift; sourceTree = "<group>"; };
 		4F450E4821A5F993006BA9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F450E5421A60BCC006BA9D3 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -63,12 +62,13 @@
 		4F450E5C21A71A6D006BA9D3 /* ResultDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultDetailsViewController.swift; sourceTree = "<group>"; };
 		4F450E5E21A76F21006BA9D3 /* TimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatter.swift; sourceTree = "<group>"; };
 		4FB45B3F21AAB699001BF41E /* PopOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverViewController.swift; sourceTree = "<group>"; };
-		5C067307976F9D448F7056FD /* Pods-search-iTunesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-search-iTunesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-search-iTunesTests/Pods-search-iTunesTests.release.xcconfig"; sourceTree = "<group>"; };
-		626ECA3E499379D20BD34E80 /* Pods-search-iTunes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-search-iTunes.release.xcconfig"; path = "Pods/Target Support Files/Pods-search-iTunes/Pods-search-iTunes.release.xcconfig"; sourceTree = "<group>"; };
-		7ED25A63BB8C823B75CB41F1 /* Pods-search-iTunesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-search-iTunesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-search-iTunesUITests/Pods-search-iTunesUITests.release.xcconfig"; sourceTree = "<group>"; };
-		AC9EC7DA617DF12AAD4DF05A /* Pods_search_iTunesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_search_iTunesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9A1099A0675D0BDB6D15F44 /* Pods-search-iTunesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-search-iTunesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-search-iTunesTests/Pods-search-iTunesTests.debug.xcconfig"; sourceTree = "<group>"; };
-		ED77FA50BE671BF368389B98 /* Pods_search_iTunesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_search_iTunesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC42A876A8FD43C0E332BF2 /* Pods-JobChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JobChallengeUITests/Pods-JobChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		63E4157D844ECDE4771335CA /* Pods-JobChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JobChallenge/Pods-JobChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		7F818947C7F72131EFB1A6D3 /* Pods_JobChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBFFAD13B180B33C3B08F1F /* Pods-JobChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JobChallengeTests/Pods-JobChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCC02B1B6E8E9B58CC095F6A /* Pods-JobChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobChallengeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JobChallengeUITests/Pods-JobChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3892B0397897B467DE33830 /* Pods-JobChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JobChallengeTests/Pods-JobChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4307D7D42CBD7AB16A13312 /* Pods-JobChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-JobChallenge/Pods-JobChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A92040BFC33E0CAF8AAA58C6 /* Pods_search_iTunes.framework in Frameworks */,
+				7E38B47A82FD090574E3E632 /* Pods_JobChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A16EC5B08D1908695A11777 /* Pods_search_iTunesTests.framework in Frameworks */,
+				3098EC5C97AFC53810571E89 /* Pods_JobChallengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05132B2CAD48804FA3F53A6F /* Pods_search_iTunesUITests.framework in Frameworks */,
+				0174D8B5FFB7BC88A3D91C32 /* Pods_JobChallengeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,9 +120,9 @@
 		4F450E1A21A5F991006BA9D3 = {
 			isa = PBXGroup;
 			children = (
-				4F450E2521A5F991006BA9D3 /* search-iTunes */,
-				4F450E3A21A5F993006BA9D3 /* search-iTunesTests */,
-				4F450E4521A5F993006BA9D3 /* search-iTunesUITests */,
+				4F450E2521A5F991006BA9D3 /* JobChallenge */,
+				4F450E3A21A5F993006BA9D3 /* JobChallengeTests */,
+				4F450E4521A5F993006BA9D3 /* JobChallengeUITests */,
 				4F450E2421A5F991006BA9D3 /* Products */,
 				52521588D91A96088EC20C5D /* Pods */,
 				DB0E18A66CFF5158CFC35F17 /* Frameworks */,
@@ -132,14 +132,14 @@
 		4F450E2421A5F991006BA9D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F450E2321A5F991006BA9D3 /* search-iTunes.app */,
-				4F450E3721A5F993006BA9D3 /* search-iTunesTests.xctest */,
-				4F450E4221A5F993006BA9D3 /* search-iTunesUITests.xctest */,
+				4F450E2321A5F991006BA9D3 /* JobChallenge.app */,
+				4F450E3721A5F993006BA9D3 /* JobChallengeTests.xctest */,
+				4F450E4221A5F993006BA9D3 /* JobChallengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F450E2521A5F991006BA9D3 /* search-iTunes */ = {
+		4F450E2521A5F991006BA9D3 /* JobChallenge */ = {
 			isa = PBXGroup;
 			children = (
 				4F18AD5521AB40DE0064C9B4 /* Controller */,
@@ -152,25 +152,25 @@
 				4F450E2F21A5F992006BA9D3 /* LaunchScreen.storyboard */,
 				4F450E3221A5F992006BA9D3 /* Info.plist */,
 			);
-			path = "search-iTunes";
+			path = JobChallenge;
 			sourceTree = "<group>";
 		};
-		4F450E3A21A5F993006BA9D3 /* search-iTunesTests */ = {
+		4F450E3A21A5F993006BA9D3 /* JobChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
 				4F450E3B21A5F993006BA9D3 /* JobChallengeTests.swift */,
 				4F450E3D21A5F993006BA9D3 /* Info.plist */,
 			);
-			path = "search-iTunesTests";
+			path = JobChallengeTests;
 			sourceTree = "<group>";
 		};
-		4F450E4521A5F993006BA9D3 /* search-iTunesUITests */ = {
+		4F450E4521A5F993006BA9D3 /* JobChallengeUITests */ = {
 			isa = PBXGroup;
 			children = (
 				4F450E4621A5F993006BA9D3 /* JobChallengeUITests.swift */,
 				4F450E4821A5F993006BA9D3 /* Info.plist */,
 			);
-			path = "search-iTunesUITests";
+			path = JobChallengeUITests;
 			sourceTree = "<group>";
 		};
 		4F450E6021A9DE94006BA9D3 /* Helper */ = {
@@ -192,12 +192,12 @@
 		52521588D91A96088EC20C5D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2F65CA3B541FE2004A3D15E0 /* Pods-search-iTunes.debug.xcconfig */,
-				626ECA3E499379D20BD34E80 /* Pods-search-iTunes.release.xcconfig */,
-				B9A1099A0675D0BDB6D15F44 /* Pods-search-iTunesTests.debug.xcconfig */,
-				5C067307976F9D448F7056FD /* Pods-search-iTunesTests.release.xcconfig */,
-				034D01D5CF4DD1D1C93248FC /* Pods-search-iTunesUITests.debug.xcconfig */,
-				7ED25A63BB8C823B75CB41F1 /* Pods-search-iTunesUITests.release.xcconfig */,
+				63E4157D844ECDE4771335CA /* Pods-JobChallenge.debug.xcconfig */,
+				E4307D7D42CBD7AB16A13312 /* Pods-JobChallenge.release.xcconfig */,
+				8CBFFAD13B180B33C3B08F1F /* Pods-JobChallengeTests.debug.xcconfig */,
+				E3892B0397897B467DE33830 /* Pods-JobChallengeTests.release.xcconfig */,
+				CCC02B1B6E8E9B58CC095F6A /* Pods-JobChallengeUITests.debug.xcconfig */,
+				5AC42A876A8FD43C0E332BF2 /* Pods-JobChallengeUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -205,9 +205,9 @@
 		DB0E18A66CFF5158CFC35F17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				27FFB6DB2B2D6C64DD55A70A /* Pods_search_iTunes.framework */,
-				AC9EC7DA617DF12AAD4DF05A /* Pods_search_iTunesTests.framework */,
-				ED77FA50BE671BF368389B98 /* Pods_search_iTunesUITests.framework */,
+				01847BE8D11D423062F755BB /* Pods_JobChallenge.framework */,
+				16BDDCB1623A2A678A464AF6 /* Pods_JobChallengeTests.framework */,
+				7F818947C7F72131EFB1A6D3 /* Pods_JobChallengeUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -215,9 +215,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F450E2221A5F991006BA9D3 /* search-iTunes */ = {
+		4F450E2221A5F991006BA9D3 /* JobChallenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F450E4B21A5F993006BA9D3 /* Build configuration list for PBXNativeTarget "search-iTunes" */;
+			buildConfigurationList = 4F450E4B21A5F993006BA9D3 /* Build configuration list for PBXNativeTarget "JobChallenge" */;
 			buildPhases = (
 				477B62B673D803B1831E6015 /* [CP] Check Pods Manifest.lock */,
 				4F450E1F21A5F991006BA9D3 /* Sources */,
@@ -229,14 +229,14 @@
 			);
 			dependencies = (
 			);
-			name = "search-iTunes";
+			name = JobChallenge;
 			productName = JobChallenge;
-			productReference = 4F450E2321A5F991006BA9D3 /* search-iTunes.app */;
+			productReference = 4F450E2321A5F991006BA9D3 /* JobChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4F450E3621A5F993006BA9D3 /* search-iTunesTests */ = {
+		4F450E3621A5F993006BA9D3 /* JobChallengeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F450E4E21A5F993006BA9D3 /* Build configuration list for PBXNativeTarget "search-iTunesTests" */;
+			buildConfigurationList = 4F450E4E21A5F993006BA9D3 /* Build configuration list for PBXNativeTarget "JobChallengeTests" */;
 			buildPhases = (
 				69724082005E04B9EE715223 /* [CP] Check Pods Manifest.lock */,
 				4F450E3321A5F993006BA9D3 /* Sources */,
@@ -248,14 +248,14 @@
 			dependencies = (
 				4F450E3921A5F993006BA9D3 /* PBXTargetDependency */,
 			);
-			name = "search-iTunesTests";
+			name = JobChallengeTests;
 			productName = JobChallengeTests;
-			productReference = 4F450E3721A5F993006BA9D3 /* search-iTunesTests.xctest */;
+			productReference = 4F450E3721A5F993006BA9D3 /* JobChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4F450E4121A5F993006BA9D3 /* search-iTunesUITests */ = {
+		4F450E4121A5F993006BA9D3 /* JobChallengeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F450E5121A5F993006BA9D3 /* Build configuration list for PBXNativeTarget "search-iTunesUITests" */;
+			buildConfigurationList = 4F450E5121A5F993006BA9D3 /* Build configuration list for PBXNativeTarget "JobChallengeUITests" */;
 			buildPhases = (
 				C5B12CF1D549A3D071F847A9 /* [CP] Check Pods Manifest.lock */,
 				4F450E3E21A5F993006BA9D3 /* Sources */,
@@ -267,9 +267,9 @@
 			dependencies = (
 				4F450E4421A5F993006BA9D3 /* PBXTargetDependency */,
 			);
-			name = "search-iTunesUITests";
+			name = JobChallengeUITests;
 			productName = JobChallengeUITests;
-			productReference = 4F450E4221A5F993006BA9D3 /* search-iTunesUITests.xctest */;
+			productReference = 4F450E4221A5F993006BA9D3 /* JobChallengeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -295,7 +295,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4F450E1E21A5F991006BA9D3 /* Build configuration list for PBXProject "search-iTunes" */;
+			buildConfigurationList = 4F450E1E21A5F991006BA9D3 /* Build configuration list for PBXProject "JobChallenge" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -308,9 +308,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F450E2221A5F991006BA9D3 /* search-iTunes */,
-				4F450E3621A5F993006BA9D3 /* search-iTunesTests */,
-				4F450E4121A5F993006BA9D3 /* search-iTunesUITests */,
+				4F450E2221A5F991006BA9D3 /* JobChallenge */,
+				4F450E3621A5F993006BA9D3 /* JobChallengeTests */,
+				4F450E4121A5F993006BA9D3 /* JobChallengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -351,7 +351,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-search-iTunes/Pods-search-iTunes-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-JobChallenge/Pods-JobChallenge-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -362,7 +362,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-search-iTunes/Pods-search-iTunes-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JobChallenge/Pods-JobChallenge-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		477B62B673D803B1831E6015 /* [CP] Check Pods Manifest.lock */ = {
@@ -380,7 +380,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-search-iTunes-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-JobChallenge-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -402,7 +402,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-search-iTunesTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-JobChallengeTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -424,7 +424,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-search-iTunesUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-JobChallengeUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -469,12 +469,12 @@
 /* Begin PBXTargetDependency section */
 		4F450E3921A5F993006BA9D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F450E2221A5F991006BA9D3 /* search-iTunes */;
+			target = 4F450E2221A5F991006BA9D3 /* JobChallenge */;
 			targetProxy = 4F450E3821A5F993006BA9D3 /* PBXContainerItemProxy */;
 		};
 		4F450E4421A5F993006BA9D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F450E2221A5F991006BA9D3 /* search-iTunes */;
+			target = 4F450E2221A5F991006BA9D3 /* JobChallenge */;
 			targetProxy = 4F450E4321A5F993006BA9D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -617,17 +617,17 @@
 		};
 		4F450E4C21A5F993006BA9D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F65CA3B541FE2004A3D15E0 /* Pods-search-iTunes.debug.xcconfig */;
+			baseConfigurationReference = 63E4157D844ECDE4771335CA /* Pods-JobChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D27Y95P5BP;
-				INFOPLIST_FILE = "search-iTunes/Info.plist";
+				INFOPLIST_FILE = JobChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "challenge.gesundheitscloud.com.search-iTunes";
+				PRODUCT_BUNDLE_IDENTIFIER = challenge.gesundheitscloud.com.JobChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -636,17 +636,17 @@
 		};
 		4F450E4D21A5F993006BA9D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 626ECA3E499379D20BD34E80 /* Pods-search-iTunes.release.xcconfig */;
+			baseConfigurationReference = E4307D7D42CBD7AB16A13312 /* Pods-JobChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D27Y95P5BP;
-				INFOPLIST_FILE = "search-iTunes/Info.plist";
+				INFOPLIST_FILE = JobChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "challenge.gesundheitscloud.com.search-iTunes";
+				PRODUCT_BUNDLE_IDENTIFIER = challenge.gesundheitscloud.com.JobChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -655,94 +655,94 @@
 		};
 		4F450E4F21A5F993006BA9D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9A1099A0675D0BDB6D15F44 /* Pods-search-iTunesTests.debug.xcconfig */;
+			baseConfigurationReference = 8CBFFAD13B180B33C3B08F1F /* Pods-JobChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D27Y95P5BP;
-				INFOPLIST_FILE = "search-iTunesTests/Info.plist";
+				INFOPLIST_FILE = JobChallengeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "challenge.gesundheitscloud.com.search-iTunesTests";
+				PRODUCT_BUNDLE_IDENTIFIER = challenge.gesundheitscloud.com.JobChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/search-iTunes.app/search-iTunes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobChallenge.app/JobChallenge";
 			};
 			name = Debug;
 		};
 		4F450E5021A5F993006BA9D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C067307976F9D448F7056FD /* Pods-search-iTunesTests.release.xcconfig */;
+			baseConfigurationReference = E3892B0397897B467DE33830 /* Pods-JobChallengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D27Y95P5BP;
-				INFOPLIST_FILE = "search-iTunesTests/Info.plist";
+				INFOPLIST_FILE = JobChallengeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "challenge.gesundheitscloud.com.search-iTunesTests";
+				PRODUCT_BUNDLE_IDENTIFIER = challenge.gesundheitscloud.com.JobChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/search-iTunes.app/search-iTunes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobChallenge.app/JobChallenge";
 			};
 			name = Release;
 		};
 		4F450E5221A5F993006BA9D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 034D01D5CF4DD1D1C93248FC /* Pods-search-iTunesUITests.debug.xcconfig */;
+			baseConfigurationReference = CCC02B1B6E8E9B58CC095F6A /* Pods-JobChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D27Y95P5BP;
-				INFOPLIST_FILE = "search-iTunesUITests/Info.plist";
+				INFOPLIST_FILE = JobChallengeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "challenge.gesundheitscloud.com.search-iTunesUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = challenge.gesundheitscloud.com.JobChallengeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "search-iTunes";
+				TEST_TARGET_NAME = JobChallenge;
 			};
 			name = Debug;
 		};
 		4F450E5321A5F993006BA9D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7ED25A63BB8C823B75CB41F1 /* Pods-search-iTunesUITests.release.xcconfig */;
+			baseConfigurationReference = 5AC42A876A8FD43C0E332BF2 /* Pods-JobChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D27Y95P5BP;
-				INFOPLIST_FILE = "search-iTunesUITests/Info.plist";
+				INFOPLIST_FILE = JobChallengeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "challenge.gesundheitscloud.com.search-iTunesUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = challenge.gesundheitscloud.com.JobChallengeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "search-iTunes";
+				TEST_TARGET_NAME = JobChallenge;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F450E1E21A5F991006BA9D3 /* Build configuration list for PBXProject "search-iTunes" */ = {
+		4F450E1E21A5F991006BA9D3 /* Build configuration list for PBXProject "JobChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F450E4921A5F993006BA9D3 /* Debug */,
@@ -751,7 +751,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F450E4B21A5F993006BA9D3 /* Build configuration list for PBXNativeTarget "search-iTunes" */ = {
+		4F450E4B21A5F993006BA9D3 /* Build configuration list for PBXNativeTarget "JobChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F450E4C21A5F993006BA9D3 /* Debug */,
@@ -760,7 +760,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F450E4E21A5F993006BA9D3 /* Build configuration list for PBXNativeTarget "search-iTunesTests" */ = {
+		4F450E4E21A5F993006BA9D3 /* Build configuration list for PBXNativeTarget "JobChallengeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F450E4F21A5F993006BA9D3 /* Debug */,
@@ -769,7 +769,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F450E5121A5F993006BA9D3 /* Build configuration list for PBXNativeTarget "search-iTunesUITests" */ = {
+		4F450E5121A5F993006BA9D3 /* Build configuration list for PBXNativeTarget "JobChallengeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F450E5221A5F993006BA9D3 /* Debug */,

@@ -1,0 +1,6 @@
+framework module Pods_JobChallengeTests {
+  umbrella header "Pods-JobChallengeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
