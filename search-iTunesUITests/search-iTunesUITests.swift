@@ -1,14 +1,14 @@
 //
-//  search_iTunesUITests.swift
-//  search-iTunesUITests
+//  JobChallengeUITests.swift
+//  JobChallengeUITests
 //
-//  Created by Big Brother on 25/11/2018.
+//  Created by Big Brother on 21/11/2018.
 //  Copyright © 2018 Big Brother. All rights reserved.
 //
 
 import XCTest
 
-class search_iTunesUITests: XCTestCase {
+class JobChallengeUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:search-iTunes.xcodeproj">
+      location = "self:/Users/bigbrother/Documents/JobChallenges/gesundheitscloud/JobChallengeCopy/search-iTunes.xcodeproj">
    </FileRef>
 </Workspace>
